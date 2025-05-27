@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: api_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: api
+      POSTGRES_USER: api
+      POSTGRES_PASSWORD: admin
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    networks:
+      - api-net
+
+volumes:
+  postgres_data:
+
+networks:
+  api-net:
