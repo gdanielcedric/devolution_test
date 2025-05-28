@@ -4,18 +4,14 @@ services:
     container_name: api_postgres
     restart: unless-stopped
     environment:
-      POSTGRES_DB: api
-      POSTGRES_USER: api
-      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: api_db
+      POSTGRES_HOST_AUTH_METHOD: trust
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: mypassword
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
       - ./pgdata:/var/lib/postgresql/data
-    networks:
-      - api-net
 
 volumes:
-  postgres_data:
-
-networks:
-  api-net:
+  postgres-data:

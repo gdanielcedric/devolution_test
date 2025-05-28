@@ -21,7 +21,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     {
         j.RequireHttpsMetadata = false;
         j.Audience = builder.Configuration["Keycloack:Audience"];
-        j.MetadataAddress = builder.Configuration["Keycloack:MetadataAddress"];
+        j.MetadataAddress = builder.Configuration["Keycloack:MetadataAddress"] ?? "";
         j.TokenValidationParameters = new TokenValidationParameters()
         {
             ValidateIssuer = true,
@@ -32,7 +32,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-builder.Services.AddDbContext<ApiDbContext>(options => options.UseNpgsql(builder.Configuration["ConnectionStrings:pgconstring"]));
+builder.Services.AddDbContext<ApiDbContext>(options => options.UseNpgsql(builder.Configuration["ConnectionStrings:DefaultConnection"]));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
