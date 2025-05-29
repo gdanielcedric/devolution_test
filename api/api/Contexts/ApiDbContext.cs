@@ -22,19 +22,17 @@ namespace api.Contexts
         }
 
         public DbSet<AssurProduct> AssurProducts { get; set; }
-        public DbSet<CategoryVehicle> CategoryVehicles { get; set; }
-        public DbSet<CollisionTierceGuaranty> CollisionGuaranties { get; set; }
-        public DbSet<DamageGuaranty> DamageGuaranties { get; set; }
-        public DbSet<IncendieGuaranty> IncendieGuaranties { get; set; }
-        public DbSet<PlafondTierceGuaranty> PlafondTierceGuaranties { get; set; }
-        public DbSet<RCGuaranty> RCGuaranties { get; set; }
-        public DbSet<VolGuaranty> VolGuaranties { get; set; }
+        public DbSet<CategoryVehicle> CategoryVehicles { get; set; }        
         public DbSet<Suscriber> Suscribers { get; set; }
+        public DbSet<Simulation> Simulations { get; set; }
         public DbSet<Subscription> Subscriptions { get; set; }
         public DbSet<Vehicle> Vehicles { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.HasDefaultSchema("public"); // ou ton schéma réel
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<AssurProduct>(entity =>
             {
                 entity.HasKey(e => e.Id).HasName("pk_assurproduct");
@@ -52,15 +50,6 @@ namespace api.Contexts
 
                 entity.ToTable("categoryvehicle");
             });
-
-            modelBuilder.Entity<Guaranty>()
-                .HasDiscriminator<string>("GuarantyType")
-                .HasValue<CollisionTierceGuaranty>("TIERCE_COLLISION")
-                .HasValue<DamageGuaranty>("DAMAGES")
-                .HasValue<IncendieGuaranty>("INCENDIE")
-                .HasValue<PlafondTierceGuaranty>("TIERCE_PLAFONNEE")
-                .HasValue<RCGuaranty>("RC")
-                .HasValue<VolGuaranty>("VOL");
 
             modelBuilder.Entity<Vehicle>(entity =>
             {
@@ -97,6 +86,19 @@ namespace api.Contexts
                 entity.HasIndex(e => e.IdAssurProduct, "assurproduct_fk");
 
                 entity.ToTable("subscription");
+            });
+
+            modelBuilder.Entity<Simulation>(entity =>
+            {
+                entity.HasKey(e => e.Id).HasName("pk_simulation");
+
+                entity.HasIndex(e => e.Id, "simulation_pk").IsUnique();
+
+                entity.HasIndex(e => e.IdVehicle, "vehicle_fk");
+
+                entity.HasIndex(e => e.IdAssurProduct, "assurproduct_fk");
+
+                entity.ToTable("simulation");
             });
         }
 

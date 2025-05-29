@@ -8,5 +8,8 @@
         public required int SiegeNumber { get; set; }
         public required int PorteNumber { get; set; }
         public required string Immatriculation { get; set; }
+        public double ValueNeuve { get; set; }
+        public double ValueVenale { get; set; }
+        public int FiscalPower { get; set; }
     }
 }

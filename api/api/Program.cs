@@ -1,4 +1,6 @@
 using api.Contexts;
+using api.Interfaces;
+using api.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -33,6 +35,14 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     });
 
 builder.Services.AddDbContext<ApiDbContext>(options => options.UseNpgsql(builder.Configuration["ConnectionStrings:DefaultConnection"]));
+
+// Add Services
+builder.Services.AddScoped<IAssurProductServices, AssurProductServices>();
+builder.Services.AddScoped<ICategoryServices, CategoryServices>();
+builder.Services.AddScoped<ISimulationServices, SimulationServices>();
+builder.Services.AddScoped<ISubscriptionServices, SubscriptionServices>();
+builder.Services.AddScoped<ISuscriberServices, SuscriberServices>();
+builder.Services.AddScoped<IVehicleServices, VehicleServices>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
