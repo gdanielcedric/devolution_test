@@ -3,36 +3,132 @@
   "WorkspaceRootPath": "D:\\devolution_test\\api\\api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\helpers\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:helpers\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\controllers\\simulationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:controllers\\simulationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\controllers\\subscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:controllers\\subscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\interfaces\\isuscriberservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:interfaces\\isuscriberservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\services\\subscriptionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:services\\subscriptionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\services\\simulationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:services\\simulationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\contexts\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:contexts\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\interfaces\\isubscriptionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:interfaces\\isubscriptionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\interfaces\\isimulationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:interfaces\\isimulationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\controllers\\suscriberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:controllers\\suscriberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\controllers\\subscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:controllers\\subscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\enums\\guarantypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:enums\\guarantypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\enums\\clientenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:enums\\clientenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\auth\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:auth\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\services\\simulationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:services\\simulationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\services\\subscriptionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:services\\subscriptionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\services\\suscriberservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:services\\suscriberservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\services\\vehicleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:services\\vehicleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\dto\\suscriberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:dto\\suscriberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\services\\assurproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:services\\assurproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\services\\categoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:services\\categoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\models\\assurproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:models\\assurproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\dto\\assurproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:dto\\assurproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\dto\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:dto\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\dto\\subscriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:dto\\subscriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\dto\\simulationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:dto\\simulationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\dto\\searchentitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:dto\\searchentitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\dto\\categoryvehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:dto\\categoryvehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\dto\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:dto\\authdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\contexts\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:contexts\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,96 +143,28 @@
       "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:dto\\filters\\subscriptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\dto\\subscriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:dto\\subscriptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\services\\assurproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:services\\assurproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\services\\vehicleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:services\\vehicleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\interfaces\\ivehicleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:interfaces\\ivehicleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\controllers\\suscriberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:controllers\\suscriberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\dto\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:dto\\vehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\enums\\guarantypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:enums\\guarantypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\models\\assurproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:models\\assurproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\interfaces\\iassurproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:interfaces\\iassurproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\dto\\assurproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:dto\\assurproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\dto\\categoryvehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:dto\\categoryvehicledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\models\\categoryvehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:models\\categoryvehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\helpers\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:helpers\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\interfaces\\isubscriptionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:interfaces\\isubscriptionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\dto\\searchentitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:dto\\searchentitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\models\\suscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:models\\suscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\services\\categoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:services\\categoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\services\\suscriberservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:services\\suscriberservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\interfaces\\icategoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:interfaces\\icategoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:controllers\\vehiclescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -175,14 +203,6 @@
       "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:dto\\abstract\\volguaranty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\enums\\clientenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:enums\\clientenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\interfaces\\isuscriberservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:interfaces\\isuscriberservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\dto\\filters\\vehiclefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:dto\\filters\\vehiclefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -210,17 +230,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 38,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "AssurProductServices.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Services\\AssurProductServices.cs",
               "RelativeDocumentMoniker": "Services\\AssurProductServices.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\Services\\AssurProductServices.cs",
               "RelativeToolTip": "Services\\AssurProductServices.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAswBwAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA9wCQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T00:57:27.036Z",
               "IsPinned": true,
@@ -228,13 +248,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "VehicleServices.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Services\\VehicleServices.cs",
               "RelativeDocumentMoniker": "Services\\VehicleServices.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\Services\\VehicleServices.cs",
               "RelativeToolTip": "Services\\VehicleServices.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBsAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T01:00:44.581Z",
               "IsPinned": true,
@@ -242,13 +262,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 16,
               "Title": "SuscriberServices.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Services\\SuscriberServices.cs",
               "RelativeDocumentMoniker": "Services\\SuscriberServices.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\Services\\SuscriberServices.cs",
               "RelativeToolTip": "Services\\SuscriberServices.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAswFoAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwD4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T01:00:12.721Z",
               "IsPinned": true,
@@ -256,13 +276,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "SubscriptionServices.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Services\\SubscriptionServices.cs",
               "RelativeDocumentMoniker": "Services\\SubscriptionServices.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\Services\\SubscriptionServices.cs",
               "RelativeToolTip": "Services\\SubscriptionServices.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAzwCAAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T00:59:35.402Z",
               "IsPinned": true,
@@ -270,13 +290,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 21,
               "Title": "CategoryServices.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Services\\CategoryServices.cs",
               "RelativeDocumentMoniker": "Services\\CategoryServices.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\Services\\CategoryServices.cs",
               "RelativeToolTip": "Services\\CategoryServices.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAwwFEAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T01:15:55.711Z",
               "IsPinned": true,
@@ -290,7 +310,7 @@
               "RelativeDocumentMoniker": "Controllers\\simulationsController.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\Controllers\\simulationsController.cs",
               "RelativeToolTip": "Controllers\\simulationsController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAqwF0AAABGAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwD0AAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T01:19:04.677Z",
               "IsPinned": true,
@@ -298,13 +318,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "subscriptionsController.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Controllers\\subscriptionsController.cs",
               "RelativeDocumentMoniker": "Controllers\\subscriptionsController.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\Controllers\\subscriptionsController.cs",
               "RelativeToolTip": "Controllers\\subscriptionsController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwBwAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAQwDsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T01:21:07.719Z",
               "IsPinned": true,
@@ -312,13 +332,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 26,
               "Title": "SimulationDTO.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\SimulationDTO.cs",
               "RelativeDocumentMoniker": "DTO\\SimulationDTO.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\DTO\\SimulationDTO.cs",
               "RelativeToolTip": "DTO\\SimulationDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T01:35:16.881Z",
               "IsPinned": true,
@@ -326,13 +346,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 25,
               "Title": "SubscriptionDTO.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\SubscriptionDTO.cs",
               "RelativeDocumentMoniker": "DTO\\SubscriptionDTO.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\DTO\\SubscriptionDTO.cs",
               "RelativeToolTip": "DTO\\SubscriptionDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T01:52:50.008Z",
               "IsPinned": true,
@@ -340,13 +360,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "VehicleDTO.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\VehicleDTO.cs",
               "RelativeDocumentMoniker": "DTO\\VehicleDTO.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\DTO\\VehicleDTO.cs",
               "RelativeToolTip": "DTO\\VehicleDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T01:55:33Z",
               "IsPinned": true,
@@ -354,13 +374,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 3,
               "Title": "ISubscriptionServices.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Interfaces\\ISubscriptionServices.cs",
               "RelativeDocumentMoniker": "Interfaces\\ISubscriptionServices.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\Interfaces\\ISubscriptionServices.cs",
               "RelativeToolTip": "Interfaces\\ISubscriptionServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T00:54:46.518Z",
               "IsPinned": true,
@@ -368,13 +388,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 2,
               "Title": "ISuscriberServices.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Interfaces\\ISuscriberServices.cs",
               "RelativeDocumentMoniker": "Interfaces\\ISuscriberServices.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\Interfaces\\ISuscriberServices.cs",
               "RelativeToolTip": "Interfaces\\ISuscriberServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T00:55:04.629Z",
               "IsPinned": true,
@@ -382,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 37,
               "Title": "IAssurProductServices.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Interfaces\\IAssurProductServices.cs",
               "RelativeDocumentMoniker": "Interfaces\\IAssurProductServices.cs",
@@ -391,12 +411,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T00:52:34.247Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 40,
               "Title": "ICategoryServices.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Interfaces\\ICategoryServices.cs",
               "RelativeDocumentMoniker": "Interfaces\\ICategoryServices.cs",
@@ -405,12 +424,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T00:53:53.415Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 35,
               "Title": "IVehicleServices.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Interfaces\\IVehicleServices.cs",
               "RelativeDocumentMoniker": "Interfaces\\IVehicleServices.cs",
@@ -419,18 +437,17 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T00:56:07.686Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 0,
               "Title": "Utility.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Helpers\\Utility.cs",
               "RelativeDocumentMoniker": "Helpers\\Utility.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\Helpers\\Utility.cs",
               "RelativeToolTip": "Helpers\\Utility.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAC0AAABVAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAA8wIUAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T21:18:10.943Z",
               "IsPinned": true,
@@ -438,67 +455,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApiDbContext.cs",
-              "DocumentMoniker": "D:\\devolution_test\\api\\api\\Contexts\\ApiDbContext.cs",
-              "RelativeDocumentMoniker": "Contexts\\ApiDbContext.cs",
-              "ToolTip": "D:\\devolution_test\\api\\api\\Contexts\\ApiDbContext.cs",
-              "RelativeToolTip": "Contexts\\ApiDbContext.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAAwF4AAAA2AAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "authController.cs",
+              "DocumentMoniker": "D:\\devolution_test\\api\\api\\Controllers\\authController.cs",
+              "RelativeDocumentMoniker": "Controllers\\authController.cs",
+              "ToolTip": "D:\\devolution_test\\api\\api\\Controllers\\authController.cs",
+              "RelativeToolTip": "Controllers\\authController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwDkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T05:20:35.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SimulationServices.cs",
-              "DocumentMoniker": "D:\\devolution_test\\api\\api\\Services\\SimulationServices.cs",
-              "RelativeDocumentMoniker": "Services\\SimulationServices.cs",
-              "ToolTip": "D:\\devolution_test\\api\\api\\Services\\SimulationServices.cs",
-              "RelativeToolTip": "Services\\SimulationServices.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T05:18:38.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ISimulationServices.cs",
-              "DocumentMoniker": "D:\\devolution_test\\api\\api\\Interfaces\\ISimulationServices.cs",
-              "RelativeDocumentMoniker": "Interfaces\\ISimulationServices.cs",
-              "ToolTip": "D:\\devolution_test\\api\\api\\Interfaces\\ISimulationServices.cs",
-              "RelativeToolTip": "Interfaces\\ISimulationServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T05:14:28.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SubscriptionFilter.cs",
-              "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\Filters\\SubscriptionFilter.cs",
-              "RelativeDocumentMoniker": "DTO\\Filters\\SubscriptionFilter.cs",
-              "ToolTip": "D:\\devolution_test\\api\\api\\DTO\\Filters\\SubscriptionFilter.cs",
-              "RelativeToolTip": "DTO\\Filters\\SubscriptionFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T04:59:04.034Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SimulationFilter.cs",
-              "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\Filters\\SimulationFilter.cs",
-              "RelativeDocumentMoniker": "DTO\\Filters\\SimulationFilter.cs",
-              "ToolTip": "D:\\devolution_test\\api\\api\\DTO\\Filters\\SimulationFilter.cs",
-              "RelativeToolTip": "DTO\\Filters\\SimulationFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T04:57:50.684Z",
+              "WhenOpened": "2025-05-30T02:02:43.499Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -515,13 +481,127 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserRoles.cs",
+              "DocumentMoniker": "D:\\devolution_test\\api\\api\\Auth\\UserRoles.cs",
+              "RelativeDocumentMoniker": "Auth\\UserRoles.cs",
+              "ToolTip": "D:\\devolution_test\\api\\api\\Auth\\UserRoles.cs",
+              "RelativeToolTip": "Auth\\UserRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T05:32:09.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 19,
+              "Title": "SuscriberDTO.cs",
+              "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\SuscriberDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\SuscriberDTO.cs",
+              "ToolTip": "D:\\devolution_test\\api\\api\\DTO\\SuscriberDTO.cs",
+              "RelativeToolTip": "DTO\\SuscriberDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T03:22:19.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AuthDTO.cs",
+              "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\AuthDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\AuthDTO.cs",
+              "ToolTip": "D:\\devolution_test\\api\\api\\DTO\\AuthDTO.cs",
+              "RelativeToolTip": "DTO\\AuthDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T02:05:33.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\devolution_test\\api\\api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\devolution_test\\api\\api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-30T01:28:49.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ApiDbContext.cs",
+              "DocumentMoniker": "D:\\devolution_test\\api\\api\\Contexts\\ApiDbContext.cs",
+              "RelativeDocumentMoniker": "Contexts\\ApiDbContext.cs",
+              "ToolTip": "D:\\devolution_test\\api\\api\\Contexts\\ApiDbContext.cs",
+              "RelativeToolTip": "Contexts\\ApiDbContext.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAwF4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:20:35.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SimulationServices.cs",
+              "DocumentMoniker": "D:\\devolution_test\\api\\api\\Services\\SimulationServices.cs",
+              "RelativeDocumentMoniker": "Services\\SimulationServices.cs",
+              "ToolTip": "D:\\devolution_test\\api\\api\\Services\\SimulationServices.cs",
+              "RelativeToolTip": "Services\\SimulationServices.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:18:38.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ISimulationServices.cs",
+              "DocumentMoniker": "D:\\devolution_test\\api\\api\\Interfaces\\ISimulationServices.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ISimulationServices.cs",
+              "ToolTip": "D:\\devolution_test\\api\\api\\Interfaces\\ISimulationServices.cs",
+              "RelativeToolTip": "Interfaces\\ISimulationServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T05:14:28.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SubscriptionFilter.cs",
+              "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\Filters\\SubscriptionFilter.cs",
+              "RelativeDocumentMoniker": "DTO\\Filters\\SubscriptionFilter.cs",
+              "ToolTip": "D:\\devolution_test\\api\\api\\DTO\\Filters\\SubscriptionFilter.cs",
+              "RelativeToolTip": "DTO\\Filters\\SubscriptionFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:59:04.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SimulationFilter.cs",
+              "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\Filters\\SimulationFilter.cs",
+              "RelativeDocumentMoniker": "DTO\\Filters\\SimulationFilter.cs",
+              "ToolTip": "D:\\devolution_test\\api\\api\\DTO\\Filters\\SimulationFilter.cs",
+              "RelativeToolTip": "DTO\\Filters\\SimulationFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T04:57:50.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "productsController.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Controllers\\productsController.cs",
               "RelativeDocumentMoniker": "Controllers\\productsController.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\Controllers\\productsController.cs",
               "RelativeToolTip": "Controllers\\productsController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAFIAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwFcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T03:02:36.438Z",
               "EditorCaption": ""
@@ -534,27 +614,27 @@
               "RelativeDocumentMoniker": "DTO\\AssurProductDTO.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\DTO\\AssurProductDTO.cs",
               "RelativeToolTip": "DTO\\AssurProductDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T02:55:39.209Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "CategoryVehicleDTO.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\CategoryVehicleDTO.cs",
               "RelativeDocumentMoniker": "DTO\\CategoryVehicleDTO.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\DTO\\CategoryVehicleDTO.cs",
               "RelativeToolTip": "DTO\\CategoryVehicleDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T02:39:03.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 38,
               "Title": "CategoryVehicle.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Models\\CategoryVehicle.cs",
               "RelativeDocumentMoniker": "Models\\CategoryVehicle.cs",
@@ -562,51 +642,50 @@
               "RelativeToolTip": "Models\\CategoryVehicle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T02:38:07.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T02:38:07.339Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 17,
               "Title": "vehiclesController.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Controllers\\vehiclesController.cs",
               "RelativeDocumentMoniker": "Controllers\\vehiclesController.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\Controllers\\vehiclesController.cs",
               "RelativeToolTip": "Controllers\\vehiclesController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADkAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T02:28:36.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 10,
               "Title": "categoriesController.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Controllers\\categoriesController.cs",
               "RelativeDocumentMoniker": "Controllers\\categoriesController.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\Controllers\\categoriesController.cs",
               "RelativeToolTip": "Controllers\\categoriesController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAiwBkAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwFgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T02:00:53.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 5,
               "Title": "suscribersController.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Controllers\\suscribersController.cs",
               "RelativeDocumentMoniker": "Controllers\\suscribersController.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\Controllers\\suscribersController.cs",
               "RelativeToolTip": "Controllers\\suscribersController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwDkAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAArwBoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T01:41:18.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 9,
               "Title": "ClientEnum.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Enums\\ClientEnum.cs",
               "RelativeDocumentMoniker": "Enums\\ClientEnum.cs",
@@ -619,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 53,
               "Title": "PagedResult.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\PagedResult.cs",
               "RelativeDocumentMoniker": "DTO\\PagedResult.cs",
@@ -627,12 +706,11 @@
               "RelativeToolTip": "DTO\\PagedResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T19:26:52.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T19:26:52.288Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "VehicleFilter.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\Filters\\VehicleFilter.cs",
               "RelativeDocumentMoniker": "DTO\\Filters\\VehicleFilter.cs",
@@ -640,12 +718,11 @@
               "RelativeToolTip": "DTO\\Filters\\VehicleFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T19:11:13.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T19:11:13.94Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 48,
               "Title": "SuscriberFilter.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\Filters\\SuscriberFilter.cs",
               "RelativeDocumentMoniker": "DTO\\Filters\\SuscriberFilter.cs",
@@ -653,12 +730,11 @@
               "RelativeToolTip": "DTO\\Filters\\SuscriberFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T19:10:52.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T19:10:52.873Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 51,
               "Title": "CategoryVehicleFilter.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\Filters\\CategoryVehicleFilter.cs",
               "RelativeDocumentMoniker": "DTO\\Filters\\CategoryVehicleFilter.cs",
@@ -666,12 +742,11 @@
               "RelativeToolTip": "DTO\\Filters\\CategoryVehicleFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T19:09:52.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T19:09:52.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 52,
               "Title": "AssurProductFilter.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\Filters\\AssurProductFilter.cs",
               "RelativeDocumentMoniker": "DTO\\Filters\\AssurProductFilter.cs",
@@ -679,12 +754,11 @@
               "RelativeToolTip": "DTO\\Filters\\AssurProductFilter.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T19:09:28.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T19:09:28.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "SearchEntityDTO.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\SearchEntityDTO.cs",
               "RelativeDocumentMoniker": "DTO\\SearchEntityDTO.cs",
@@ -697,20 +771,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAACkAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAArwBEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T01:10:51.056Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 32,
               "Title": "Subscription.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Models\\Subscription.cs",
               "RelativeDocumentMoniker": "Models\\Subscription.cs",
@@ -718,12 +792,11 @@
               "RelativeToolTip": "Models\\Subscription.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:02:39.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T04:02:39.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 39,
               "Title": "Suscriber.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Models\\Suscriber.cs",
               "RelativeDocumentMoniker": "Models\\Suscriber.cs",
@@ -731,12 +804,11 @@
               "RelativeToolTip": "Models\\Suscriber.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T03:58:54.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T03:58:54.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 36,
               "Title": "Vehicle.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Models\\Vehicle.cs",
               "RelativeDocumentMoniker": "Models\\Vehicle.cs",
@@ -744,12 +816,11 @@
               "RelativeToolTip": "Models\\Vehicle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T03:52:50.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T03:52:50.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "api.csproj",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\api.csproj",
               "RelativeDocumentMoniker": "api.csproj",
@@ -757,12 +828,11 @@
               "RelativeToolTip": "api.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-27T03:08:54.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T03:08:54.955Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "AssurProduct.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Models\\AssurProduct.cs",
               "RelativeDocumentMoniker": "Models\\AssurProduct.cs",
@@ -775,7 +845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 45,
               "Title": "IncendieGuaranty.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\Abstract\\IncendieGuaranty.cs",
               "RelativeDocumentMoniker": "DTO\\Abstract\\IncendieGuaranty.cs",
@@ -783,12 +853,11 @@
               "RelativeToolTip": "DTO\\Abstract\\IncendieGuaranty.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:16:10.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T02:16:10.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 49,
               "Title": "VolGuaranty.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\Abstract\\VolGuaranty.cs",
               "RelativeDocumentMoniker": "DTO\\Abstract\\VolGuaranty.cs",
@@ -796,12 +865,11 @@
               "RelativeToolTip": "DTO\\Abstract\\VolGuaranty.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:14:30.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T02:14:30.022Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 46,
               "Title": "PlafondTierceGuaranty.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\Abstract\\PlafondTierceGuaranty.cs",
               "RelativeDocumentMoniker": "DTO\\Abstract\\PlafondTierceGuaranty.cs",
@@ -809,12 +877,11 @@
               "RelativeToolTip": "DTO\\Abstract\\PlafondTierceGuaranty.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:08:55.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T02:08:55.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 42,
               "Title": "CollisionTierceGuaranty.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\Abstract\\CollisionTierceGuaranty.cs",
               "RelativeDocumentMoniker": "DTO\\Abstract\\CollisionTierceGuaranty.cs",
@@ -822,12 +889,11 @@
               "RelativeToolTip": "DTO\\Abstract\\CollisionTierceGuaranty.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:06:45.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T02:06:45.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 43,
               "Title": "DamageGuaranty.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\Abstract\\DamageGuaranty.cs",
               "RelativeDocumentMoniker": "DTO\\Abstract\\DamageGuaranty.cs",
@@ -835,12 +901,11 @@
               "RelativeToolTip": "DTO\\Abstract\\DamageGuaranty.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T02:02:04.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T02:02:04.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 47,
               "Title": "RCGuaranty.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\Abstract\\RCGuaranty.cs",
               "RelativeDocumentMoniker": "DTO\\Abstract\\RCGuaranty.cs",
@@ -848,25 +913,24 @@
               "RelativeToolTip": "DTO\\Abstract\\RCGuaranty.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T01:47:49.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T01:47:49.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 8,
               "Title": "GuaranTypeEnum.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Enums\\GuaranTypeEnum.cs",
               "RelativeDocumentMoniker": "Enums\\GuaranTypeEnum.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\Enums\\GuaranTypeEnum.cs",
               "RelativeToolTip": "Enums\\GuaranTypeEnum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T01:39:06.507Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 44,
               "Title": "Guaranty.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\DTO\\Abstract\\Guaranty.cs",
               "RelativeDocumentMoniker": "DTO\\Abstract\\Guaranty.cs",
@@ -874,12 +938,11 @@
               "RelativeToolTip": "DTO\\Abstract\\Guaranty.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T01:35:11.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T01:35:11.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 54,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Models\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Models\\BaseEntity.cs",
@@ -887,8 +950,7 @@
               "RelativeToolTip": "Models\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T01:26:56.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T01:26:56.891Z"
             }
           ]
         }

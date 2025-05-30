@@ -33,7 +33,9 @@ namespace api.Services
             {
                 Name = product.Name,
                 Categories = product.Categories,
-                Garanties = product.Garanties
+                Garanties = product.Garanties,
+                CreatedBy = product.CreatedBy,
+                UpdatedBy = product.UpdatedBy,
             };
 
             _context.AssurProducts.Add(prd);

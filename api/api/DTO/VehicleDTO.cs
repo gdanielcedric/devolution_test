@@ -11,5 +11,7 @@
         public double ValueNeuve { get; set; }
         public double ValueVenale { get; set; }
         public int FiscalPower { get; set; }
+        public string CreatedBy { get; set; } = string.Empty;
+        public string UpdatedBy { get; set; } = string.Empty;
     }
 }

@@ -40,7 +40,9 @@ namespace api.Services
                 IdSuscriber = id,
                 ValueNeuve = vehicle.ValueNeuve,
                 ValueVenale = vehicle.ValueVenale,
-                FiscalPower = vehicle.FiscalPower
+                FiscalPower = vehicle.FiscalPower,
+                UpdatedBy = vehicle.UpdatedBy,
+                CreatedBy = vehicle.CreatedBy,
             };
 
             _context.Vehicles.Add(voiture);

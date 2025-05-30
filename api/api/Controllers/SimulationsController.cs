@@ -5,8 +5,10 @@ using api.Helpers;
 using api.Interfaces;
 using api.Models;
 using api.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 using static Org.BouncyCastle.Math.EC.ECCurve;
 
 namespace api.Controllers
@@ -55,11 +57,18 @@ namespace api.Controllers
         /// </summary>
         /// <param name="search"></param>
         /// <returns></returns>
+        [Authorize]
         [HttpPost("all")]
         public Task<IActionResult> GetSimulations(SearchEntityDto<SimulationFilter> search)
         {
+            string? idConnected = "";
+
+            var isAdmin = User.IsInRole("Admin");
+
+            if (!isAdmin) idConnected = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
             // get all simulations
-            var all = _simulationsServices.getAll(search);
+            var all = _simulationsServices.getAll(search, idConnected);
 
             return Task.FromResult<IActionResult>(Ok(all));
         }
@@ -69,6 +78,7 @@ namespace api.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
+        [Authorize]
         [HttpGet("{id}")]
         public Task<IActionResult> GetSimulation(string id)
         {
@@ -90,9 +100,19 @@ namespace api.Controllers
         /// </summary>
         /// <param name="simul"></param>
         /// <returns></returns>
+        [Authorize(Roles = "Amazon")]
         [HttpPost]
         public Task<IActionResult> PostSimulation(SimulationDTO simul)
         {
+            // get connected user id
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            // assign connected user to entity
+            simul.CreatedBy = userId ?? "";
+            simul.UpdatedBy = userId ?? "";
+            simul.Vehicle.CreatedBy = userId ?? "";
+            simul.Vehicle.UpdatedBy = userId ?? "";
+
             // create vehicle
             var vehicule = _vehicleServices.createVehicle(simul.Vehicle, usertest.Id).Result;
 
@@ -129,7 +149,9 @@ namespace api.Controllers
                 IdAssurProduct = simul.IdAssurProduct,
                 IdVehicle = vehicule.Id,
                 Price = prime,
-                QuoteReference = $"QT{Utility.GenerateRandomString(12)}"
+                QuoteReference = $"QT{Utility.GenerateRandomString(12)}",
+                CreatedBy = simul.CreatedBy,
+                UpdatedBy = simul.UpdatedBy,
             };
 
             // create result

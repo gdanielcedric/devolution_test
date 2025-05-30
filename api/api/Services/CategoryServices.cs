@@ -36,6 +36,8 @@ namespace api.Services
                 Code = vehicleDto.Code,
                 Libelle = vehicleDto.Libelle,
                 Description = vehicleDto.Description,
+                CreatedBy = vehicleDto.CreatedBy,
+                UpdatedBy = vehicleDto.UpdatedBy,
             };
 
             _context.CategoryVehicles.Add(vehicle);

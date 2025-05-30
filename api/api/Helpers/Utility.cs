@@ -119,7 +119,43 @@ namespace api.Helpers
         // To generate PDF
         public static string GeneratePDF(Subscription subs, Suscriber susb, Vehicle vehicle)
         {
-            return "";
+            return @$"<!DOCTYPE html>
+                    <html lang=""en"">
+                    <head>
+                      <meta charset=""utf-8"">
+                      <meta name=""viewport"" content=""width=device-width, initial-scale=1"">
+                      <link rel=""stylesheet"" href=""https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"">
+                      <script src=""https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js""></script>
+                      <script src=""https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js""></script>
+                    </head>
+                    <body>
+
+                    <div class=""container"">
+                      <h2>Attestation  NSIAGO'ASSUR : {subs.QuoteReference}</h2>
+                      <p>Cette attestation a pour but de faire valoir vos droits.</p>            
+                      <table class=""table"">
+                        <tbody>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                    </body>
+                    </html>";
         }
 
 

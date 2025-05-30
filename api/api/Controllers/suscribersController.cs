@@ -10,9 +10,12 @@ using System.IO;
 using Microsoft.AspNetCore.Http.HttpResults;
 using api.Enums;
 using Humanizer;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace api.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("v1/[controller]")]
     public class suscribersController : ControllerBase
@@ -43,8 +46,14 @@ namespace api.Controllers
         [HttpPost("all")]
         public Task<IActionResult> GetAllSuscribers(SearchEntityDto<SuscriberFilter> subs)
         {
+            string? idConnected = "";
+
+            var isAdmin = User.IsInRole("Admin");
+
+            if (!isAdmin) idConnected = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
             // get all suscribers
-            var all = _suscriberServices.getAll(subs);
+            var all = _suscriberServices.getAll(subs, idConnected);
 
             return Task.FromResult<IActionResult>(Ok(all));
         }
@@ -55,7 +64,7 @@ namespace api.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet("{id}")]
-        public Task<IActionResult> GetSuscriber(string id)
+        public Task<IActionResult> GetDetailSuscriber(string id)
         {
             // get suscriber by id
             var subs = _suscriberServices.getDetail(id).Result;

@@ -8,5 +8,7 @@
         public string Prenom { get; set; } = string.Empty;
         public string Ville { get; set; } = string.Empty;
         public required string Telephone { get; set; }
+        public string CreatedBy { get; set; } = string.Empty;
+        public string UpdatedBy { get; set; } = string.Empty;
     }
 }

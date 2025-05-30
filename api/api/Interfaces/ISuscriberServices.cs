@@ -6,7 +6,7 @@ namespace api.Interfaces
 {
     public interface ISuscriberServices
     {
-        public PagedResult<Suscriber> getAll(SearchEntityDto<SuscriberFilter> search);
+        public PagedResult<Suscriber> getAll(SearchEntityDto<SuscriberFilter> search, string? id = "");
         public Task<Suscriber> getDetail(string id);
         public Task<Suscriber> createSuscriber(SuscriberDTO suscriber);
     }

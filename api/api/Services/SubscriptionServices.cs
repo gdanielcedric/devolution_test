@@ -45,9 +45,15 @@ namespace api.Services
         }
 
         // get All Subscriptions
-        public PagedResult<Subscription> getAll(SearchEntityDto<SubscriptionFilter> search)
+        public PagedResult<Subscription> getAll(SearchEntityDto<SubscriptionFilter> search, string id = "")
         {
             var query = _context.Subscriptions.AsEnumerable();
+
+            // if id not null, return suscribers for this user
+            if (!string.IsNullOrWhiteSpace(id))
+            {
+                query = query.Where(x => x.CreatedBy.Equals(id));
+            }
 
             if (!string.IsNullOrWhiteSpace(search.Filter?.quoteReference))
             {

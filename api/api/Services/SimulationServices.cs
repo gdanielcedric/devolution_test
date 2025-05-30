@@ -45,9 +45,15 @@ namespace api.Services
         }
 
         // get All Simulations
-        public PagedResult<Simulation> getAll(SearchEntityDto<SimulationFilter> search)
+        public PagedResult<Simulation> getAll(SearchEntityDto<SimulationFilter> search, string id = "")
         {
             var query = _context.Simulations.AsEnumerable();
+
+            // if id not null, return suscribers for this user
+            if (!string.IsNullOrWhiteSpace(id))
+            {
+                query = query.Where(x => x.CreatedBy.Equals(id));
+            }
 
             if (!string.IsNullOrWhiteSpace(search.Filter?.quoteReference))
             {

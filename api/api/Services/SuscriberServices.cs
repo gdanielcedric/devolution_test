@@ -36,7 +36,9 @@ namespace api.Services
                 CNI = suscriber.Cni,
                 Nom = suscriber.Nom,
                 Prenom = suscriber.Prenom,
-                Ville = suscriber.Ville
+                Ville = suscriber.Ville,
+                CreatedBy = suscriber.CreatedBy,
+                UpdatedBy = suscriber.UpdatedBy,
             };
 
             _context.Suscribers.Add(susb);
@@ -54,9 +56,15 @@ namespace api.Services
         }
 
         // get All Suscribers
-        public PagedResult<Suscriber> getAll(SearchEntityDto<SuscriberFilter> search)
+        public PagedResult<Suscriber> getAll(SearchEntityDto<SuscriberFilter> search, string id = "")
         {
             var query = _context.Suscribers.AsEnumerable();
+
+            // if id not null, return suscribers for this user
+            if (!string.IsNullOrWhiteSpace(id))
+            {
+                query = query.Where(x => x.CreatedBy.Equals(id));
+            }
 
             if (!string.IsNullOrWhiteSpace(search.Filter?.CNI))
             {

@@ -10,6 +10,8 @@ using System.IO;
 using Microsoft.AspNetCore.Http.HttpResults;
 using api.Enums;
 using Humanizer;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace api.Controllers
 {
@@ -51,11 +53,18 @@ namespace api.Controllers
         /// </summary>
         /// <param name="search"></param>
         /// <returns></returns>
+        [Authorize]
         [HttpPost("all")]
         public Task<IActionResult> GetAllSubscription(SearchEntityDto<SubscriptionFilter> search)
         {
+            string? idConnected = "";
+
+            var isAdmin = User.IsInRole("Admin");
+
+            if (!isAdmin) idConnected = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
             // get all subscriptions
-            var all = _subscriptionsServices.getAll(search);
+            var all = _subscriptionsServices.getAll(search, idConnected);
 
             return Task.FromResult<IActionResult>(Ok(all));
         }
@@ -65,6 +74,7 @@ namespace api.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
+        [Authorize]
         [HttpGet("{id}")]
         public Task<IActionResult> GetSubscription(string id)
         {
@@ -86,6 +96,7 @@ namespace api.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
+        [Authorize]
         [HttpGet("status/{id}")]
         public Task<IActionResult> GetSubscriptionStatus(string id)
         {
@@ -107,6 +118,7 @@ namespace api.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
+        [Authorize]
         [HttpGet("{id}/attestation")]
         public IActionResult GetSubscriptionAttestation(string id)
         {
@@ -148,9 +160,21 @@ namespace api.Controllers
         /// </summary>
         /// <param name="subs"></param>
         /// <returns></returns>
+        [Authorize(Roles = "Amazon")]
         [HttpPost]
         public Task<IActionResult> PostSubscription(SubscriptionDTO subs)
         {
+            // get connected user id
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            // assign connected user to entity
+            subs.CreatedBy = userId ?? "";
+            subs.UpdatedBy = userId ?? "";
+            subs.Suscriber.CreatedBy = userId ?? "";
+            subs.Suscriber.UpdatedBy = userId ?? "";
+            subs.Vehicle.CreatedBy = userId ?? "";
+            subs.Vehicle.UpdatedBy = userId ?? "";
+
             // verif phone
             if (!Utility.isGoodPhone(subs.Suscriber.Telephone))
             {
@@ -210,7 +234,9 @@ namespace api.Controllers
                 IdVehicle = vehicule.Id,
                 Price = prime,
                 Step = ClientEnum.PROSPECT.Humanize(),
-                QuoteReference = $"QT{Utility.GenerateRandomString(12)}"
+                QuoteReference = $"QT{Utility.GenerateRandomString(12)}",
+                CreatedBy = subs.CreatedBy,
+                UpdatedBy = subs.UpdatedBy,
             };
 
             // create result

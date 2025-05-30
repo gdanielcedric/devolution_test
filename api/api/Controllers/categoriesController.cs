@@ -11,6 +11,9 @@ using Microsoft.AspNetCore.Http.HttpResults;
 using api.Enums;
 using Humanizer;
 using api.Services;
+using Microsoft.AspNetCore.Authorization;
+using api.Auth;
+using System.Security.Claims;
 
 namespace api.Controllers
 {
@@ -41,6 +44,7 @@ namespace api.Controllers
         /// </summary>
         /// <param name="subs"></param>
         /// <returns></returns>
+        [Authorize]
         [HttpPost("all")]
         public Task<IActionResult> GetAllCategories(SearchEntityDto<CategoryVehicleFilter> subs)
         {
@@ -55,6 +59,7 @@ namespace api.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
+        [Authorize]
         [HttpGet("{id}")]
         public Task<IActionResult> GetCategory(string id)
         {
@@ -76,9 +81,17 @@ namespace api.Controllers
         /// </summary>
         /// <param name="subs"></param>
         /// <returns></returns>
+        [Authorize(Roles = $"{UserRoles.ADMIN}")]
         [HttpPost]
         public Task<IActionResult> PostCategory(CategoryVehicleDTO subs)
         {
+            // get connected user id
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            // assign connected user to entity
+            subs.CreatedBy = userId ?? "";
+            subs.UpdatedBy = userId ?? "";
+
             // create vehicle
             var cat = _categoryServices.createCategoryVehicle(subs).Result;
 

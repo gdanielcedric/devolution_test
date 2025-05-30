@@ -10,9 +10,11 @@ using System.IO;
 using Microsoft.AspNetCore.Http.HttpResults;
 using api.Enums;
 using Humanizer;
+using Microsoft.AspNetCore.Authorization;
 
 namespace api.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("v1/[controller]")]
     public class vehiclesController : ControllerBase

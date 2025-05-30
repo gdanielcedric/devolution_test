@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
+using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,24 +17,58 @@ AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 builder.Services.AddControllers();
 
-// Add authentication
-builder.Services.AddAuthorization();
+// Configuration de l'authentification avec Keycloak
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(j =>
-    {
-        j.RequireHttpsMetadata = false;
-        j.Audience = builder.Configuration["Keycloack:Audience"];
-        j.MetadataAddress = builder.Configuration["Keycloack:MetadataAddress"] ?? "";
-        j.TokenValidationParameters = new TokenValidationParameters()
-        {
-            ValidateIssuer = true,
-            ValidateAudience = false,
-            ValidIssuer = builder.Configuration["Keycloack:ValidIssuer"],
-            ValidateIssuerSigningKey = true,
-            ValidateLifetime = true,
-        };
-    });
+.AddJwtBearer(auth =>
+{
+    auth.Authority = builder.Configuration["Keycloack:Authority"] ?? "";
+    auth.Audience = builder.Configuration["Keycloack:Audience"];
 
+    auth.RequireHttpsMetadata = false; // désactive SSL pour développement local
+    auth.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        RoleClaimType = ClaimTypes.Role,
+        NameClaimType = "preferred_username"
+    };
+
+    // Extraction manuelle des rôles depuis realm_access.roles
+    auth.Events = new JwtBearerEvents
+    {
+        OnTokenValidated = context =>
+        {
+            var identity = context.Principal?.Identity as ClaimsIdentity;
+            var realmAccess = context.Principal?.FindFirst("realm_access")?.Value;
+
+            if (realmAccess != null)
+            {
+                var parsed = System.Text.Json.JsonDocument.Parse(realmAccess);
+                if (parsed.RootElement.TryGetProperty("roles", out var roles))
+                {
+                    foreach (var role in roles.EnumerateArray())
+                    {
+                        var roleName = role.GetString();
+                        if (!string.IsNullOrWhiteSpace(roleName))
+                        {
+                            identity?.AddClaim(new Claim(ClaimTypes.Role, roleName));
+                        }
+                    }
+                }
+            }
+
+            return Task.CompletedTask;
+        }
+    };
+});
+
+
+builder.Services.AddAuthorization();
+
+//save Http client factory
+builder.Services.AddHttpClient();
+
+// save conection database
 builder.Services.AddDbContext<ApiDbContext>(options => options.UseNpgsql(builder.Configuration["ConnectionStrings:DefaultConnection"]));
 
 // Add Services

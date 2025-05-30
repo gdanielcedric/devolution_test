@@ -11,6 +11,8 @@ using Microsoft.AspNetCore.Http.HttpResults;
 using api.Enums;
 using Humanizer;
 using api.Services;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace api.Controllers
 {
@@ -41,6 +43,7 @@ namespace api.Controllers
         /// </summary>
         /// <param name="subs"></param>
         /// <returns></returns>
+        [Authorize]
         [HttpPost("all")]
         public Task<IActionResult> GetAllAssurProducts(SearchEntityDto<AssurProductFilter> subs)
         {
@@ -55,6 +58,7 @@ namespace api.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
+        [Authorize]
         [HttpGet("{id}")]
         public Task<IActionResult> GetAssurProduct(string id)
         {
@@ -76,9 +80,17 @@ namespace api.Controllers
         /// </summary>
         /// <param name="subs"></param>
         /// <returns></returns>
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public Task<IActionResult> PostAssurProduct(AssurProductDTO subs)
         {
+            // get connected user id
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            // assign connected user to entity
+            subs.CreatedBy = userId ?? "";
+            subs.UpdatedBy = userId ?? "";
+
             // create vehicle
             var cat = _assurProductServices.createAssurProduct(subs).Result;
 
