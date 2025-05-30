@@ -1,3 +1,4 @@
+using api.Auth;
 using api.DTO;
 using api.DTO.Filters;
 using api.Enums;
@@ -100,7 +101,7 @@ namespace api.Controllers
         /// </summary>
         /// <param name="simul"></param>
         /// <returns></returns>
-        [Authorize(Roles = "Amazon")]
+        [Authorize(Roles = $"{UserRoles.AMAZON}")]
         [HttpPost]
         public Task<IActionResult> PostSimulation(SimulationDTO simul)
         {

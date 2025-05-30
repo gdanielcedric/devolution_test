@@ -13,6 +13,7 @@ using Humanizer;
 using api.Services;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
+using api.Auth;
 
 namespace api.Controllers
 {
@@ -80,7 +81,7 @@ namespace api.Controllers
         /// </summary>
         /// <param name="subs"></param>
         /// <returns></returns>
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = $"{UserRoles.ADMIN}")]
         [HttpPost]
         public Task<IActionResult> PostAssurProduct(AssurProductDTO subs)
         {

@@ -117,7 +117,7 @@ namespace api.Helpers
         }
 
         // To generate PDF
-        public static string GeneratePDF(Subscription subs, Suscriber susb, Vehicle vehicle)
+        public static string GeneratePDF(Subscription subs, Suscriber susb, Vehicle vehicle, AssurProduct product)
         {
             return @$"<!DOCTYPE html>
                     <html lang=""en"">
@@ -131,24 +131,73 @@ namespace api.Helpers
                     <body>
 
                     <div class=""container"">
-                      <h2>Attestation  NSIAGO'ASSUR : {subs.QuoteReference}</h2>
-                      <p>Cette attestation a pour but de faire valoir vos droits.</p>            
+                      <h3>NSIAGO'ASSUR : {subs.QuoteReference}</h3>
+                      <p>Cette attestation a pour but de faire valoir vos droits.</p>   
+                      <h3>Souscripteur</h3>
                       <table class=""table"">
                         <tbody>
                           <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>Nom & prenoms</td>
+                            <td>{susb.Nom} {susb.Prenom}</td>
                           </tr>
                           <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>Telephone</td>
+                            <td>{susb.Telephone}</td>
                           </tr>
                           <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
+                            <td>CNI</td>
+                            <td>{susb.CNI}</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <h3>Vehicule</h3>
+                      <table class=""table"">
+                        <tbody>
+                          <tr>
+                            <td>Immatriculation</td>
+                            <td>{vehicle.ImmatriculationNumber}</td>
+                          </tr>
+                          <tr>
+                            <td>Couleur</td>
+                            <td>{vehicle.Couleur}</td>
+                          </tr>
+                          <tr>
+                            <td>Nombre de portes</td>
+                            <td>{vehicle.NombrePorte}</td>
+                          </tr>
+                           <tr>
+                            <td>Nombre de sièges</td>
+                            <td>{vehicle.NombreSiege}</td>
+                          </tr>
+                          <tr>
+                            <td>Puissance fiscale</td>
+                            <td>{vehicle.FiscalPower}</td>
+                          </tr>
+                          <tr>
+                            <td>Valeur neuve</td>
+                            <td>{vehicle.ValueNeuve}</td>
+                          </tr>
+                           <tr>
+                            <td>Valeur venale</td>
+                            <td>{vehicle.ValueVenale}</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <h3>Produit Assurance</h3>
+                      <table class=""table"">
+                        <tbody>
+                          <tr>
+                            <td>Nom</td>
+                            <td>{product.Name}</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <h3>Prime</h3>
+                      <table class=""table"">
+                        <tbody>
+                          <tr>
+                            <td>Total</td>
+                            <td><b>{subs.Price} XOF</b></td>
                           </tr>
                         </tbody>
                       </table>

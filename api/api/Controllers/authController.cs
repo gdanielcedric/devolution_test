@@ -32,6 +32,11 @@ namespace api.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Authentication
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] AuthDTO request)
         {

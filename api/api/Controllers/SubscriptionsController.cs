@@ -12,6 +12,7 @@ using api.Enums;
 using Humanizer;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
+using api.Auth;
 
 namespace api.Controllers
 {
@@ -137,8 +138,11 @@ namespace api.Controllers
             // get Assure
             var suscriber = _suscriberServices.getDetail(subs.IdSubscriber).Result;
 
+            // get Produc Assur
+            var assur = _assurProductServices.getDetail(subs.IdAssurProduct).Result;
+
             // generate PDF
-            var html = Utility.GeneratePDF(subs, suscriber, vehicle);
+            var html = Utility.GeneratePDF(subs, suscriber, vehicle, assur);
 
             // formatter le nom du fichier
             var fileName = $"{Utility.GetTimestamp(DateTime.Now)}.pdf";
@@ -160,7 +164,7 @@ namespace api.Controllers
         /// </summary>
         /// <param name="subs"></param>
         /// <returns></returns>
-        [Authorize(Roles = "Amazon")]
+        [Authorize(Roles = $"{UserRoles.AMAZON}")]
         [HttpPost]
         public Task<IActionResult> PostSubscription(SubscriptionDTO subs)
         {
