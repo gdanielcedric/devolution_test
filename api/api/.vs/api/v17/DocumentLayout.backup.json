@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\devolution_test\\api\\api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -65,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\enums\\clientenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:enums\\clientenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C1B1019-89DF-473A-A3FE-DF6480F787D8}|api.csproj|d:\\devolution_test\\api\\api\\services\\simulationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -230,7 +230,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 43,
           "Children": [
             {
               "$type": "Bookmark",
@@ -246,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AssurProductServices.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Services\\AssurProductServices.cs",
               "RelativeDocumentMoniker": "Services\\AssurProductServices.cs",
@@ -316,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "simulationsController.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Controllers\\simulationsController.cs",
               "RelativeDocumentMoniker": "Controllers\\simulationsController.cs",
@@ -330,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "subscriptionsController.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Controllers\\subscriptionsController.cs",
               "RelativeDocumentMoniker": "Controllers\\subscriptionsController.cs",
@@ -386,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ISubscriptionServices.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Interfaces\\ISubscriptionServices.cs",
               "RelativeDocumentMoniker": "Interfaces\\ISubscriptionServices.cs",
@@ -400,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ISuscriberServices.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Interfaces\\ISuscriberServices.cs",
               "RelativeDocumentMoniker": "Interfaces\\ISuscriberServices.cs",
@@ -453,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Utility.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Helpers\\Utility.cs",
               "RelativeDocumentMoniker": "Helpers\\Utility.cs",
@@ -467,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "authController.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Controllers\\authController.cs",
               "RelativeDocumentMoniker": "Controllers\\authController.cs",
@@ -481,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserRoles.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Auth\\UserRoles.cs",
               "RelativeDocumentMoniker": "Auth\\UserRoles.cs",
@@ -533,7 +533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ApiDbContext.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Contexts\\ApiDbContext.cs",
               "RelativeDocumentMoniker": "Contexts\\ApiDbContext.cs",
@@ -559,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ISimulationServices.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Interfaces\\ISimulationServices.cs",
               "RelativeDocumentMoniker": "Interfaces\\ISimulationServices.cs",
@@ -596,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "productsController.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Controllers\\productsController.cs",
               "RelativeDocumentMoniker": "Controllers\\productsController.cs",
@@ -647,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "vehiclesController.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Controllers\\vehiclesController.cs",
               "RelativeDocumentMoniker": "Controllers\\vehiclesController.cs",
@@ -660,7 +660,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "categoriesController.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Controllers\\categoriesController.cs",
               "RelativeDocumentMoniker": "Controllers\\categoriesController.cs",
@@ -673,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "suscribersController.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Controllers\\suscribersController.cs",
               "RelativeDocumentMoniker": "Controllers\\suscribersController.cs",
@@ -686,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ClientEnum.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Enums\\ClientEnum.cs",
               "RelativeDocumentMoniker": "Enums\\ClientEnum.cs",
@@ -772,13 +772,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\devolution_test\\api\\api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAArwBEAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAArwGEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T01:10:51.056Z",
               "EditorCaption": ""
@@ -918,7 +918,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "GuaranTypeEnum.cs",
               "DocumentMoniker": "D:\\devolution_test\\api\\api\\Enums\\GuaranTypeEnum.cs",
               "RelativeDocumentMoniker": "Enums\\GuaranTypeEnum.cs",

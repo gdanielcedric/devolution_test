@@ -6,7 +6,7 @@ namespace api.Interfaces
 {
     public interface ISubscriptionServices
     {
-        public PagedResult<Subscription> getAll(SearchEntityDto<SubscriptionFilter> search, string? id = "");
+        public PagedResult<VSSDTO> getAll(SearchEntityDto<SubscriptionFilter> search, string? id = "");
         public Task<Subscription> getDetail(string id);
         public Task<Subscription> createSubscription(Subscription subscription);
     }

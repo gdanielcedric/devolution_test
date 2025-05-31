@@ -16,6 +16,7 @@ using api.Auth;
 
 namespace api.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("v1/[controller]")]
     public class subscriptionsController : ControllerBase
@@ -54,7 +55,6 @@ namespace api.Controllers
         /// </summary>
         /// <param name="search"></param>
         /// <returns></returns>
-        [Authorize]
         [HttpPost("all")]
         public Task<IActionResult> GetAllSubscription(SearchEntityDto<SubscriptionFilter> search)
         {
@@ -75,7 +75,6 @@ namespace api.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
-        [Authorize]
         [HttpGet("{id}")]
         public Task<IActionResult> GetSubscription(string id)
         {
@@ -164,7 +163,6 @@ namespace api.Controllers
         /// </summary>
         /// <param name="subs"></param>
         /// <returns></returns>
-        [Authorize(Roles = $"{UserRoles.AMAZON}")]
         [HttpPost]
         public Task<IActionResult> PostSubscription(SubscriptionDTO subs)
         {

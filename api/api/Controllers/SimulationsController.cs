@@ -14,6 +14,7 @@ using static Org.BouncyCastle.Math.EC.ECCurve;
 
 namespace api.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("v1/[controller]")]
     public class simulationsController : ControllerBase
@@ -58,7 +59,6 @@ namespace api.Controllers
         /// </summary>
         /// <param name="search"></param>
         /// <returns></returns>
-        [Authorize]
         [HttpPost("all")]
         public Task<IActionResult> GetSimulations(SearchEntityDto<SimulationFilter> search)
         {
@@ -78,8 +78,7 @@ namespace api.Controllers
         /// Get simulation by id
         /// </summary>
         /// <param name="id"></param>
-        /// <returns></returns>
-        [Authorize]
+        /// <returns></returns>        
         [HttpGet("{id}")]
         public Task<IActionResult> GetSimulation(string id)
         {
@@ -101,7 +100,6 @@ namespace api.Controllers
         /// </summary>
         /// <param name="simul"></param>
         /// <returns></returns>
-        [Authorize(Roles = $"{UserRoles.AMAZON}")]
         [HttpPost]
         public Task<IActionResult> PostSimulation(SimulationDTO simul)
         {

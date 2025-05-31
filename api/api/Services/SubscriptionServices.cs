@@ -45,9 +45,28 @@ namespace api.Services
         }
 
         // get All Subscriptions
-        public PagedResult<Subscription> getAll(SearchEntityDto<SubscriptionFilter> search, string id = "")
+        public PagedResult<VSSDTO> getAll(SearchEntityDto<SubscriptionFilter> search, string id = "")
         {
-            var query = _context.Subscriptions.AsEnumerable();
+            var query = (from s in _context.Subscriptions
+                         join sus in _context.Suscribers on s.IdSubscriber equals sus.Id
+                         join v in _context.Vehicles on s.IdVehicle equals v.Id
+                         join a in _context.AssurProducts on s.IdAssurProduct equals a.Id
+                         select new VSSDTO
+                         {
+                             Id = s.Id,
+                             QuoteReference = s.QuoteReference,
+                             SuscriberNom = sus.Nom,
+                             SuscriberPhone = sus.Telephone,
+                             ImmatriculationNumber = v.ImmatriculationNumber,
+                             AssurProduct = a.Name,
+                             Price = s.Price,
+                             CreatedAt = s.CreatedAt,
+                             UpdatedAt = s.UpdatedAt,
+                             CreatedBy = s.CreatedBy,
+                             UpdatedBy = s.UpdatedBy,
+                             Status = s.Status,
+                             Step = s.Step,
+                         }).AsEnumerable();
 
             // if id not null, return suscribers for this user
             if (!string.IsNullOrWhiteSpace(id))
@@ -62,7 +81,7 @@ namespace api.Services
 
             var items = query.Skip(search.PageSize * search.PageIndex).Take(search.PageSize).ToList();
 
-            return new PagedResult<Subscription>
+            return new PagedResult<VSSDTO>
             {
                 Items = items,
                 TotalItems = query.Count(),

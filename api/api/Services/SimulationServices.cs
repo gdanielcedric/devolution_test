@@ -4,6 +4,7 @@ using api.DTO.Filters;
 using api.Interfaces;
 using api.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Any;
 using static iText.StyledXmlParser.Jsoup.Select.Evaluator;
 
 namespace api.Services
@@ -45,9 +46,24 @@ namespace api.Services
         }
 
         // get All Simulations
-        public PagedResult<Simulation> getAll(SearchEntityDto<SimulationFilter> search, string id = "")
+        public PagedResult<VSSDTO> getAll(SearchEntityDto<SimulationFilter> search, string id = "")
         {
-            var query = _context.Simulations.AsEnumerable();
+            var query = (from s in _context.Simulations
+                         join v in _context.Vehicles on s.IdVehicle equals v.Id
+                         join a in _context.AssurProducts on s.IdAssurProduct equals a.Id
+                         select new VSSDTO
+                         {
+                             Id = s.Id,
+                             QuoteReference = s.QuoteReference,
+                             ImmatriculationNumber = v.ImmatriculationNumber,
+                             AssurProduct = a.Name,
+                             Price = s.Price,
+                             CreatedAt = s.CreatedAt,
+                             UpdatedAt = s.UpdatedAt,
+                             CreatedBy = s.CreatedBy,
+                             UpdatedBy = s.UpdatedBy,
+                             Status = s.Status
+                         }).AsEnumerable();
 
             // if id not null, return suscribers for this user
             if (!string.IsNullOrWhiteSpace(id))
@@ -62,7 +78,7 @@ namespace api.Services
 
             var items = query.Skip(search.PageSize * search.PageIndex).Take(search.PageSize).ToList();
 
-            return new PagedResult<Simulation>
+            return new PagedResult<VSSDTO>
             {
                 Items = items,
                 TotalItems = query.Count(),
