@@ -6,23 +6,20 @@ postgres 15
 Entity Framework  
 Github  
 Visual Studio  
-ReactJS  
+Docker
 
 # I. Architecture
 
 -	Keycloak et sa BD  
 -	BD projet  
 -	Api interconnectée avec Keycloak et la BD du projet  
--	Frontend qui consomme l’api  
 
 # II. Recupération du projet et configuraiton  
 
 Saisir les commandes git suivantes pour récupérer les projets api et front :  
 - gh repo clone gdanielcedric/devolution_test_api  
-- gh repo clone gdanielcedric/devolution_test_front  
 Ou les télécharger via les liens suivants :  
 https://github.com/gdanielcedric/devolution_test_api.git  
-https://github.com/gdanielcedric/devolution_test_front.git  
 Une fois récupérer nous allons lancer les contenaires dockers pour accéder aux services keycloak et BD  
 A- Keycloak  
 1- Ouvrir le dossier : cd /keycloak  
@@ -33,10 +30,6 @@ B- BD
 C- Api  
 1- Ouvrir le dossier : cd /api/api  
 2- Saisir : dotnet run (ou cliquer sur l'icone de démarrage dans visual studio)  
-D- Frontend :  
-1- Ouvrir le dossier : cd /frontend (selon le nom sur lequel vous l'avez enregistré en local)  
-2- Saisir : npm install (pour installer les packages necessaires)  
-3- Saisir : npm start (pour lancer le projet)  
 
 # III. Configuration de keycloack
 
