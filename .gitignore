@@ -1,5 +1,3 @@
 
 *.vsidx
-/api/api/bin
-/api/api/obj
 /api/api/.vs
